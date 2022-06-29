@@ -41,9 +41,7 @@ export class AppComponent {
     for (let item of arr) {
       let [numberOfHouse, statusOfPrivatisation, numberOfOwners, streetName] = item
 
-      if (numberOfHouse === '40' && streetName === 'Ленина') {
-        console.log(true)
-      } else if (numberOfHouse === '56') {
+      if (numberOfHouse === '40' && streetName === 'Ленина' || numberOfHouse === '56') {
         console.log(true)
       } else {
         console.log(false)
