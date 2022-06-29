@@ -43,7 +43,7 @@ export class AppComponent {
 
       if (numberOfHouse === '40' && streetName === 'Ленина') {
         console.log(true)
-      } else if (numberOfHouse === '56' && streetName !== 'Ленина') {
+      } else if (numberOfHouse === '56') {
         console.log(true)
       } else {
         console.log(false)
