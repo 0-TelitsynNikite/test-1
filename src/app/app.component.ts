@@ -29,7 +29,7 @@ export class AppComponent {
     }
   }
 
-  getAreaOfAHouse(arr: string[][] = this.data) {
+  getAreaOfAHouse(arr: string[][] = this.data): void {
     for (let item of arr) {
       if (item.some(a => a === '40') && item.some(a => a === 'Ленина')) {
         console.log(true)
